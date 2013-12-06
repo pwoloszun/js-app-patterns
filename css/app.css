@@ -43,6 +43,26 @@ body {
 
 }
 
+.map {
+  height: 460px;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.item-details {
+  height: 460px;
+  margin: 10px;
+  background-color: chocolate;
+}
+
+.items-list {
+  margin: 10px;
+}
+
+.items-list table {
+  width: 100%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
