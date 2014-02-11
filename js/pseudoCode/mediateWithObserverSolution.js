@@ -1,4 +1,4 @@
-function mediateWithObserver() {
+function mediateWithObserver() {// Mediator: mediate GUI
   listView.on("listItem:select", function(selectedItem) {
     mapView.changeSelected(selectedItem);
     detailsView.update(selectedItem);
@@ -9,3 +9,5 @@ function mediateWithObserver() {
     detailsView.update(selectedItem);
   });
 }
+
+// mediate: Notifications etc.
