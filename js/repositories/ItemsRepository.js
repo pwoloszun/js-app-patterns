@@ -1,9 +1,12 @@
-var ItemsRepository = (function() {
-  var ITEMS = [
-    {id: 1, name: "item 1"},
-    {id: 2, name: "item 2"},
-    {id: 3, name: "item 3"}
-  ];
+var itemsRepository = (function() {
+  var ITEMS = [];
+  for (var i = 1; i < 10; i++) {
+    ITEMS.push({
+      id: i,
+      name: "item " + i,
+      description: "some desc " + i
+    });
+  }
 
   return {
     getAll: function() {
