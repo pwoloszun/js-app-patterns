@@ -1,4 +1,2 @@
-var App = {};
-
 $(function() {
 });
